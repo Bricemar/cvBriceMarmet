@@ -15,7 +15,12 @@
 span {
   color: #114B28;
 }
-
+.hidden {
+  display: none;
+}
+.visible {
+  display: block;
+}
 /*==========MENU=============*/
 .menu {
   font-family: "replay";
@@ -55,7 +60,14 @@ a, a:hover, a:active {
   font-size: 17px;
 }
 /*===========CONTENU==========*/
-
+.sectionsP {
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+.contenuHome {
+  display: block;
+}
 .contenu {
   font-family: "computer";
   font-size: 15px;
@@ -73,6 +85,7 @@ a, a:hover, a:active {
 
 .home {
   /*border: solid blue 1px;*/
+  height: 100%;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -99,6 +112,7 @@ a, a:hover, a:active {
 .presentation {
   display: flex;
   align-items: center;
+  height: 100%;
   /*border: solid blue 1px;*/
   width: 100%;
 }
@@ -124,6 +138,7 @@ a, a:hover, a:active {
   justify-content: center;
   flex-wrap: wrap;
   width: 100%;
+  height: 100%;
   /*border: solid blue 1px;*/
 }
 .parcours h1 {
@@ -155,6 +170,7 @@ a, a:hover, a:active {
   justify-content: center;
   flex-wrap: wrap;
   width: 100%;
+  height: 100%;
 }
 .competences h1 {
   width: 100%;
@@ -194,4 +210,8 @@ a, a:hover, a:active {
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
+  height: 100%;
+}
+.portfolio h1 {
+  text-align: center;
 }
