@@ -90,14 +90,12 @@ a, a:hover, a:active {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
   text-align: center;
 }
 .home h1 {
   width: 100%;
   /*border: solid white 1px;*/
   font-size: 70px;
-  margin-bottom: 25px;
 }
 .home h2 {
   width: 100%;
