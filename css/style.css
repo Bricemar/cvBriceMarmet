@@ -97,7 +97,7 @@ a, a:hover, a:active {
   width: 100%;
   /*border: solid white 1px;*/
   font-size: 70px;
-  margin-bottom: -25px;
+  margin-bottom: 25px;
 }
 .home h2 {
   width: 100%;
