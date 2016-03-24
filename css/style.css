@@ -109,6 +109,7 @@ a, a:hover, a:active {
 .presentation {
   display: flex;
   align-items: center;
+  justify-content: center;
   height: 100%;
   /*border: solid blue 1px;*/
   width: 100%;
