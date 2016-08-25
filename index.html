@@ -1,133 +1,366 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Brice Marmet Développeur Web</title>
-    <link rel="stylesheet" href="css/style.css" charset="utf-8">
-    <link rel="stylesheet" href="css/hexaFond.css" charset="utf-8">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+    <title>Brice Marmet - Développeur Web</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/smoothscroll.js"></script>
+    <script src="assets/js/Chart.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
   </head>
-  <body>
-    <div id="particles-js"></div>
 
-    <div class="conteneur">
-    <section class="menu">
-       <img src="images/hexag.svg" alt="" class="logo" /><!-- logo BM -->
-      <nav>
-        <a href="#" class="liens">
-          <img src="images/hexag.svg" alt="" />
-          Presentation
-        </a>
-        <a href="#" class="liens">
-          <img src="images/hexag.svg" alt="" />
-          Parcours
-        </a>
-        <a href="#" class="liens">
-          <img src="images/hexag.svg" alt="" />
-          Competences
-        </a>
-        <a href="#" class="liens">
-          <img src="images/hexag.svg" alt="" />
-          Portfolio
-        </a>
+  <body data-spy="scroll" data-offset="0" data-target="#nav">
 
-      </nav>
-      <p>brice.marmet@gmail.com</p>
 
-      <a href="https://twitter.com/briMarmet"><i class="fa fa-twitter fa-3x"></i></a>
-      <a href="https://github.com/Bricemar"><i class="fa fa-github fa-3x"></i></a>
-    </section>
 
-    <section class="contenu">
-      <!-- <article class="home">
-        <h1><span>B</span>rice Marmet</h1>
-        <h2><span>D</span>éveloppeur Web</h2>
-      </article> -->
-      <article class="presentation">
-        <img src="images/MARMET Brice.jpg.svg" alt="" />
-        <p> Bonjour et bienvenue ! <br>
-          Je suis Brice Marmet, passionné par l'informatique depuis tout petit
-          et issu de la première promotion de l'école Up To je souhaite devenir
-          développeur back-end. Petit à petit je me spécialise dans deux frameworks
-          qui sont Symfony et Magento, mais par la suite j'en choisirais qu'un
-          pour devenir expert. Toujours envie d'apprendre je touche un peu à tout
-          dans l'informatique mais dans d'autres domaines tel que l'histoire scandinave,
-          les sciences. J'aime sortir de ma zone de confort et prendre des risques
-          pour en ressortir toujours avec des connaissances en plus et de l'expérience.
-          Je vous souhaite bonne visite !
+	<div id="headerwrap">
+		<div class="container">
+			<div class="row centered">
+				<div class="col-lg-12" id="textHead">
+					<h1>Brice Marmet</h1>
+					<h3>Développeur Web - Back End</h3>
+				</div><!--/.col-lg-12 -->
+			</div><!--/.row -->
+		</div><!--/.container -->
+	</div><!--/.#headerwrap -->
 
-          </script>
-        </p>
-      </article>
-       <!-- <article class ="parcours">
-        <h1>Parcours</h1>
-        <p class="formation">
-          <strong>Up To - Développement Web</strong><br>
-          Dec 2015 - Aout 2016 à Montpellier<br><br>
-          <strong>SUPINFO Lyon - Première année</strong><br>
-          Nov 2013 - Juin 2014 à Lyon<br><br>
-          <strong>BTS SIO - Première année</strong><br>
-          Sept 2012 - Juin 2013 au Lycée Gabriel Fauré à Annecy<br><br>
-          <strong>Bac STG GSI</strong><br>
-          Sept 2011 - Juin 2012 au Lycée Gabreil Fauré à Annecy
-        </p>
-        <hr>
-        <div class="expPro">
-          <p>
-          <strong>MJC Novel - Bénévole assistant plateau</strong><br>
-          Juin 2011 - Juin 2013 à Annecy<br>
-          </p>
-          <ul>
-            <li>Montage de scènes</li>
-            <li>Sonorisation de groupes</li>
-            <li>Régie lumière</li>
-            <li>Backline</li>
-          </ul>
-          <p>
-          <strong>Harmonie Mutuelle - Service logistique</strong><br>
-          Août 2010 - Sept 2010 à Annecy<br>
-          </p>
-          <ul>
-            <li>Tri du courrier</li>
-            <li>Tri des archives</li>
-            <li>Envoi du courrier</li>
-            <li>Affranchissement du courrier</li>
-            <li>Maintenance des locaux</li>
-          </ul>
-        </div>
-      </article> -->
-      <!-- <article class="competences">
-        <h1>Compétences</h1>
-        <h2>Acquises</h2>
-        <h2>Notions</h2>
-        <div class="comp">
-          <p>
-          <strong>HTML</strong><br>
-          <strong>CSS</strong><br>
-          <strong>PHP</strong><br>
-          </p>
-        </div>
-        <hr>
-        <div class="notions">
-          <p>
-          <strong>C</strong><br>
-          <strong>C++</strong><br>
-          </p>
-        </div>
-          <p class="enCours">
-            <strong>Apprentissage en cours</strong><br><br>
-            <strong>Javascript avec les frameworks AngularJS et Jquery,frameworks php Symfony2 et Magento</strong>
-          </p>
-      </article> -->
-      <!-- <article class="portfolio">
-        <h1>En cours...</h1>
-      </article> -->
 
-    </section>
-    </div>
-    <!-- particles.js container -->
+	<section id="about" name="about"></section>
+	<div id="intro">
+		<div class="container">
+			<div class="row">
 
-    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
-    <script type="text/javascript" src="js/hexa.js"></script>
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>A PROPOS</h5>
+				</div>
+				<div class="col-lg-6">
+					<p>Passioné par l'informatique depuis tout petit j'ai toujours voulu en faire mon métier ! La formation Up To m'a donné les clés afin de poursuivre mon apprentissage dans le domaine du développement Web et je souhaite maintenant entrer dans une école en alternance afin d'approfondir mes compétences mais aussi acquérir de l'expérience !</p>
+				</div>
+				<!-- <div class="col-lg-3">
+					<p><a href="#"><i class="icon-file"></i></a> <sm>Télécharger mon CV PDF</sm></p>
+				</div> -->
+
+			</div><!--/.row -->
+		</div><!--/.container -->
+	</div><!--/ #intro -->
+
+
+	<section id="resume" name="resume"></section>
+	<!--EDUCATION DESCRIPTION -->
+	<div class="container desc">
+		<div class="row">
+
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>FORMATION</h5>
+				</div>
+				<div class="col-lg-6">
+					<p><t>Formation Up To - Développement Web</t><br/>
+						Montpellier <br/>
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>Décembre 2015 - Août 2016</sm><br/>
+					</p>
+				</div>
+
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><t>SUPINFO - Première année</t><br/>
+						Lyon <br/>
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>2013 - 2014</sm></p>
+				</div>
+
+        <div class="col-lg-6 col-lg-offset-3">
+					<p><t>BTS SIO - Première année</t><br/>
+						Lycée Gabriel Fauré - Annecy <br/>
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>2012 - 2013</sm></p>
+				</div>
+
+        <div class="col-lg-6 col-lg-offset-3">
+					<p><t>BAC STG - Gestion des systèmes d'information</t><br/>
+						Lycée Gabriel Fauré - Annecy <br/>
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>2011 - 2012</sm></p>
+				</div>
+
+		</div><!--/.row -->
+		<br>
+		<hr>
+	</div><!--/.container -->
+
+
+	<!--WORK DESCRIPTION -->
+	<div class="container desc">
+		<div class="row">
+
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>PARCOURS PROFESSIONNEL</h5>
+				</div>
+				<div class="col-lg-6">
+					<p><t>Stage Développeur Web - Back-End</t><br/>
+						Kaliop Interactive Media <br/>
+					</p>
+					<p><more>Développement d'une plateforme RH au sein de l'entreprise Kaliop afin de facilité la gestion du recrutement avec le framework Symfony2 pour le back-end, et l'utilisation de SolR pour l'indexation des données tout en applicant la méthode agile SCRUM.</more></p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>Juin 2016 - Août 2016</sm></p>
+				</div>
+
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><t>Service logistique</t><br/>
+						Harmonie Mutuelle <br/>
+					</p>
+					<p><more>Emploi d'été, accomplissement de différentes tâches tel que le tri du courrier, des archives, affranchissement du courrier et l'envoi ainsi que la maintenance des locaux</more></p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>Août 2010</sm></p>
+				</div>
+		</div><!--/.row -->
+		<br>
+		<hr>
+	</div><!--/.container -->
+
+
+	<!--AWARDS DESCRIPTION -->
+	<div class="container desc">
+		<div class="row">
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>RECOMPENSES</h5>
+				</div>
+				<div class="col-lg-6">
+					<p><t>Concours inter-promo Simplon - 6ème place</t><br/>
+						Up To <br/>
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>Janvier 2016</sm></p>
+				</div>
+
+		</div><!--/.row -->
+		<br>
+	</div><!--/.container -->
+
+
+	<!--SKILLS DESCRIPTION -->
+	<div id="skillswrap">
+		<div class="container">
+			<div class="row">
+					<div class="col-lg-2 col-lg-offset-1">
+						<h5>COMPETENCES</h5>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="javascript" height="130" width="130"></canvas>
+						<p>HTML/CSS</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 90,
+										color:"#1abc9c"
+									},
+									{
+										value : 10,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="bootstrap" height="130" width="130"></canvas>
+						<p>PHP</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 90,
+										color:"#1abc9c"
+									},
+									{
+										value : 10,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("bootstrap").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="wordpress" height="130" width="130"></canvas>
+						<p>Symfony2</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 55,
+										color:"#1abc9c"
+									},
+									{
+										value : 45,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("wordpress").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+
+					<div class="col-lg-3 col-lg-offset-3 centered">
+						<canvas id="html" height="130" width="130"></canvas>
+						<p>Javascript</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 60,
+										color:"#1abc9c"
+									},
+									{
+										value : 40,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("html").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="photoshop" height="130" width="130"></canvas>
+						<p>Linux</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 60,
+										color:"#1abc9c"
+									},
+									{
+										value : 40,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("photoshop").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="illustrator" height="130" width="130"></canvas>
+						<p>SQL</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 80,
+										color:"#1abc9c"
+									},
+									{
+										value : 20,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("illustrator").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+
+			</div><!--/.row -->
+			<br>
+		</div><!--/.container -->
+	</div><!--/ #skillswrap -->
+
+
+
+	<section id="work" name="work"></section>
+	<!--PORTFOLIO DESCRIPTION -->
+	<div class="container desc">
+		<div class="row">
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>PORTFOLIO</h5>
+				</div>
+				<div class="col-lg-6">
+					<p><img class="img-responsive" src="assets/img/up-to-numerique.gif" alt=""></p>
+				</div>
+				<div class="col-lg-3">
+					<p>Site Up To</p>
+				<p><more>Première phase du projet nous étions en plusieurs groupes afin de proposer différentes version du site. Etant chef de projet de mon groupe j'ai pu apprendre à gérer une équipe afin de livrer un site avec une deadline tout en m'impliquant dans le projet en tant que développeur. La seconde phase a été de rajouter les éléments de plusieurs groupe en un seul et unique site afin d'avoir le site actuel de Up To.<br/><br/>
+					<sm><i class="icon-tag"></i>Front-end - Footer</sm></more>
+				</p>
+				</div>
+
+        <div class="col-lg-9">
+				</div>
+				<div class="col-lg-3">
+					<p>Et bien d'autres...</p>
+				<p><more>Site d'une communauté multi-gaming<br/>
+        API de géolocalisation d'oiseaux avec sa région<br/>
+        Site de vente de timbres <br/>
+        Cv intéractif<br/>
+        J'ai plusieurs projets en cours cité ci-dessus, mais par manque de contenus visuels, ou pas encore mis en ligne, je ne peux les afficher pour le moment, mais cela viendra ! N'hésitez pas à me poser des questions sur ces derniers !<br/><br/>
+					<sm><i class="icon-tag"></i>Back-End</sm></more>
+				</p>
+				</div>
+
+		</div><!--/.row -->
+		<br>
+		<br>
+	</div><!--/.container -->
+
+
+
+	<section id="contact" name="contact"></section>
+	<!--FOOTER DESCRIPTION -->
+	<div id="footwrap">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>CONTACT</h5>
+				</div>
+				<div class="col-lg-6">
+					<p><t>Email</t><br/>
+						brice.marmet@gmail.com <br/>
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>SOCIAL LINKS</sm></p>
+					<p>
+						<a href="https://twitter.com/briMarmet"><i class="icon-twitter"></i></a>
+						<a href="https://www.linkedin.com/in/brice-marmet-70679b122"><i class="icon-linkedin"></i></a>
+
+					</p>
+				</div>
+			</div><!--/.row -->
+		</div><!--/.container -->
+	</div><!--/ #footer -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/bootstrap.js"></script>
   </body>
 </html>
